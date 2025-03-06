@@ -9,13 +9,27 @@ email: contact@felinefine.org
 description: >-
   The Feline Fine is a Sea of Thieves group that prides itself from having representation from all the game's main factions!
 url: "https://felinefine.org"
-github_username:  midnightdoggo19
+github_username: Feline-Fine-Guild
+
+head: >-
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Feline Fine</title>
+      <link rel="icon" type='image/x-icon' href="assets/favicon.ico">
+  </head>
 
 # Build settings
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      image: true
 
 exclude:
   - .sass-cache/
