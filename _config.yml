@@ -7,7 +7,7 @@
 title: Feline Fine
 email: contact@felinefine.org
 description: >-
-  The Feline Fine is a Sea of Thieves group that prides itself from having representation from all the game's main factions!
+  The Feline Fine is a Sea of Thieves guild!
 url: "https://felinefine.org"
 github_username: Feline-Fine-Guild
 
@@ -19,13 +19,13 @@ head: >-
       <link rel="icon" type='image/x-icon' href="assets/favicon.ico">
 
       <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-96CMBYDWL6"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=${{ secrets.ANALYTICS }}"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-96CMBYDWL6');
+        gtag('config', '${{ secrets.ANALYTICS }}');
       </script>
   </head>
 
