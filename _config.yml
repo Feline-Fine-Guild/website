@@ -25,6 +25,8 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
+google_analytics: ${{ secrets.analytics }}
+
 defaults:
   - scope:
       path: "assets"
